@@ -10,8 +10,8 @@ def main():
     total_kb = num_files * avg_size_kb
     total_mb = total_kb / 1024
 
-    print("Total KB:", total_kb)
-    print("Total MB:", total_mb)
+    print("Total storage (KB):", round(total_kb, 2))
+    print("Total storage (MB):", round(total_mb, 2))
 
 
 main()
